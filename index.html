@@ -13,11 +13,14 @@
   <script>
     (function() {
         var text = new Blotter.Text("IPv4: 106.15.93.198", {
-        family : "serif",
-        size : 120,
+        family : "-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji",
+        size : 64,
         fill : "#171717"
       });
       var material = new Blotter.ChannelSplitMaterial();
+      material.uniforms.uOffset.value = 0.017;
+      material.uniforms.uRotation.value = 36;
+      
       var blotter = new Blotter(material, { texts : text });
       var scope = blotter.forText(text);
       scope.appendTo(document.body);

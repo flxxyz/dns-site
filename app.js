@@ -14,7 +14,7 @@
     class App {
         constructor(text) {
             if (!text) {
-                text = new Blotter.Text("IPv4: 106.15.93.198", {
+                text = new Blotter.Text("IPv4: 139.224.249.159", {
                     family: "'Helvetica', Arial, sans-serif",
                     style: 'italic',
                     weight: 400,
@@ -73,4 +73,5 @@
         }
     };
     window.App = App;
+    console.log('IPv4: 139.224.249.159\nIPv6: 2408:4002:10cb:7900:b090:7a6e:f384:96e0');
 })(this);

@@ -13,18 +13,6 @@
 
     class App {
         constructor(text) {
-            if (!text) {
-                text = new Blotter.Text("IPv4: 139.224.249.159", {
-                    family: "'Helvetica', Arial, sans-serif",
-                    style: 'italic',
-                    weight: 400,
-                    height: 100,
-                    size: 64,
-                    fill: "#171717",
-                    paddingLeft: 24,
-                    paddingRight: 24,
-                });
-            }
             this.blotterText = text;
             this.material = new Blotter.ChannelSplitMaterial();
             this.blotter = new Blotter(this.material, { texts: this.blotterText });
@@ -73,5 +61,4 @@
         }
     };
     window.App = App;
-    console.log('IPv4: 139.224.249.159\nIPv6: 2408:4002:10cb:7900:b090:7a6e:f384:96e0');
 })(this);

@@ -2,7 +2,7 @@
 
 一个运行在 **树莓派3b** 上，干净安全的DNS服务(基于pihole)
 
-> 规则中可能存在***误拦截***，可以提 **issue** 来加入白名单
+> 规则中可能存在***误拦截***，可以加白名单
 
 ## 上游DNS
 
@@ -15,7 +15,6 @@
 ### IPv6
 - 2001:4860:4860:0:0:0:0:8888
 - 2606:4700:4700::1111
-- 2400:3200::1
 
 ## 一些正在使用的规则
 
@@ -26,6 +25,8 @@
 - [PoorPocketsMcNewHold/steamscamsite/master/steamscamsite.txt](https://raw.githubusercontent.com/PoorPocketsMcNewHold/steamscamsite/master/steamscamsite.txt) Steam, Dota, CSGO, TF2, PUBG诈骗网站
 - [mhhakim/pihole-blocklist/master/porn.txt
 ](https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt) 常见的色情网站
+- [Perflyst/PiHoleBlocklist/blob/master/android-tracking.txt](https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt) 安卓追踪
+- [privacy-protection-tools/anti-AD/master/anti-ad-domains.txt](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt) 致力于成为中文区命中率最高的广告过滤列表
 
 ---
 
